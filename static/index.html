@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art Generator</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Ascii Art Generator</h1>
+    </main>
+    <div>
+        <form action="/generate" method="post">
+            <textarea type="text" name="inputText" placeholder="Enter your text here" required></textarea>
+            <div class="radio-group">
+                <div class="radio-option">
+                    <input type="radio" name="banner" value="shadow" required>
+                    <label for="shadow">Shadow</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="banner" value="standard" required>
+                    <label for="standard">Standard</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" name="banner" value="thinkertoy" required>
+                    <label for="thinkertoy">ThinkerToy</label>
+                </div>
+            </div>
+            <input type="submit" id="btn" value="Process">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+form {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 2rem;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom:3px;
+    
+}
+.radio-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+#btn{
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    text-align: center;
+    margin-left: 100px;
+}
